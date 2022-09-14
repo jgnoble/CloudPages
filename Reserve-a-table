@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+    *{
+margin: 0;
+padding: 0;
+
+}
+  body {
+  margin: 0;
+  font-family: arial, "Helvetica Neue", Helvetica, sans-serifl
+  font-size: 17px;
+  color: 926239;
+  line-height: 1.6;
+}
+
+#hero {
+background-image:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+height: 100vh;
+background-size: cover;
+background-position: center;
+  display: flex; /*aligns text vertically*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 0 20px;
+}
+      
+      #hero h1 {
+      font-size: 50px;
+     
+      }
+ #hero p {
+      font-size: 20px;
+      }
+      
+       #hero .button {
+      font-size: 18px;
+         text-decoration: none;
+         color: white;
+         border: orange 1px solid;
+         border-radius: 10px;
+         padding: 10px 20px;
+       
+      }
+   
+         
+      
+      
+      .layout-canvas-g {
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  width: 100%;
+}
+.layout-canvas-g > .header,
+.layout-canvas-g > .section,
+.layout-canvas-g > .footer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  word-wrap: break-word;
+}
+.layout-canvas-g > .section {
+  margin: 10px 0;
+}
+.layout-canvas-g > .section > .columns {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+body {
+  color: #000;
+  font-family: Arial;
+  font-size: 12px;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+@media only screen and (max-width: 480px) {
+  .mobile-hidden {
+    display: none !important;
+  }
+  .responsive-td {
+    width: 100% !important;
+    display: block !important;
+    padding: 0 !important;
+  }
+}
+.layout-canvas-g > .section > .columns {
+  width: 100%;
+}
+
+      
+    </style>
+    
+    
+    
+    <title>Reserve a Table</title>
+  </head>
+  <body>
+<header id="hero">
+  <h1>Reserve a Table</h1>
+  <p>Submit the form and book your table today!</p>
+  
+  <div class="layout layout-canvas-g">
+ <div class="section">
+  <div class="columns col1">
+   <div data-type="slot" data-key="col1"></div>
+  </div>
+ </div>
+</div>
+</header>
+<section id="section-a">
+
+  </section>
+
+    
+    
+
+  </body>
+</html>
